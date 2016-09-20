@@ -1,0 +1,28 @@
+#title {
+  color: red;
+  text-align: center;
+}
+
+#turtle {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 100;
+}
+
+#turtle-cage {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  border: 2px solid black;
+  background: linear-gradient(lightyellow, lightblue, red, grey)
+}
+
+.line {
+  height: 1px;
+/*  background: black;*/
+  position: absolute;
+  border-top: 2px dotted red;  
+}
